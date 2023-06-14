@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "firstinputmessage",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "oldmsg",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "newmessage",
+						"type": "string"
+					}
+				],
+				"name": "msgchanged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newmessage",
+						"type": "string"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"metaschool.sol/helloworld.sol": "helloW"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"metaschool.sol/helloworld.sol": {
+			"keccak256": "0xf7c9fdaacefef62ba4faef2ebf1dd74f6a36319a982795fe2797e19698d9e433",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58bbd55fce415ab5bfb2c8cc36567e2d31c68f01d07a97c84dbdbcbd05da7de7",
+				"dweb:/ipfs/QmNTBch5tbnrSFxQ2BEcbXcpJWJyBeNXbNCKgcM5LBKvWq"
+			]
+		}
+	},
+	"version": 1
+}

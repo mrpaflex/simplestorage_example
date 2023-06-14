@@ -1,0 +1,163 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "authorize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "isAuthorized",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "unauthorize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"authorize(address)": {
+					"notice": "Authorize address. Owner only"
+				},
+				"isAuthorized(address)": {
+					"notice": "Return address' authorization status"
+				},
+				"isOwner(address)": {
+					"notice": "Check if address is owner"
+				},
+				"transferOwnership(address)": {
+					"notice": "Transfer ownership to new address. Caller must be owner. Leaves old owner authorized"
+				},
+				"unauthorize(address)": {
+					"notice": "Remove address' authorization. Owner only"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"myApex.sol": "Auth"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"myApex.sol": {
+			"keccak256": "0x9f8cedce8e4ff2eb0341e651e8437dd840036f20f312431a3cf7fde8eecbb463",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://1898ef6a750bd13fac13cf80a832405f799d3625f8488aebef85c65188d928d0",
+				"dweb:/ipfs/QmetyKc5SDcJnohrXCmNioT3mJKjmziA95ZAPRruUxUnhc"
+			]
+		}
+	},
+	"version": 1
+}

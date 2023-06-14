@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMood",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mood",
+						"type": "string"
+					}
+				],
+				"name": "setMood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"antiv/mood.sol": "moodDiary"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"antiv/mood.sol": {
+			"keccak256": "0x570a9bda0c6a4b11dc779f342d02a222127203f45e420c76754282f7cc37e8b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5cebdaf8f5cc08143840ed83d59131f46d7a372b3b5d07edb05bbbb57c942e16",
+				"dweb:/ipfs/QmcqxWxEoUvx9nCaYpMUajHrvQ3Y3JRsy6C4a6wkS5y8vy"
+			]
+		}
+	},
+	"version": 1
+}

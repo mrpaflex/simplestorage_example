@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "checkvalue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loan",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/practice.sol": "Regulator"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/practice.sol": {
+			"keccak256": "0xdc0a7d7d069c99f010333d02f492fe3309ebb860f845d89676ab90e064a44a0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b14fea0204a236470c3fd633978490f22cd8a92b02935ce0581becbf74997632",
+				"dweb:/ipfs/QmRGEqa92KR6Eb5HDUwbtjMKq92L2oGsAyjuARbKyhHAxz"
+			]
+		}
+	},
+	"version": 1
+}

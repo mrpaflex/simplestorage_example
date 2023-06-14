@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newfanumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addperson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nametofanumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fanumber",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrive",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newfanumber",
+						"type": "uint256"
+					}
+				],
+				"name": "storenewfanumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"patrickcollinsclass/reviewstorage.sol": "reviewsimplestorge"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"patrickcollinsclass/reviewstorage.sol": {
+			"keccak256": "0x5a005061bbb6c82bf5bd87519075ec964dc34534e0fbad3af270a4bb1050c0ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54186f60ea142950b751fd74206d04ca6638602eca0bfa9ea9416552dfbfd175",
+				"dweb:/ipfs/QmNtBMg3tdpNr3uNynZmoG5gvH8qWHpUEpRFAa89YYjFYP"
+			]
+		}
+	},
+	"version": 1
+}

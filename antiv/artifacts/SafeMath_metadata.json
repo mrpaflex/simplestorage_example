@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeAdd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeDiv",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeMul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeSub",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"antiv/retokencopy.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"antiv/retokencopy.sol": {
+			"keccak256": "0x0ac6f13bb4abd63a6d18d0421f501a6329cb75733e8e423a100d780ed93ba44a",
+			"urls": [
+				"bzz-raw://2eeec819813c1aacb70801c5a004d69999ed1386e7a31205940f281c29c6cf4c",
+				"dweb:/ipfs/QmUHs5xpaowRM4KFjYLdqsjriq8nDSLtyTtwcgVWr1gKyH"
+			]
+		}
+	},
+	"version": 1
+}

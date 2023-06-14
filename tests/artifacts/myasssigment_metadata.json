@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "arrFun",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/contpractice.sol": "myasssigment"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/contpractice.sol": {
+			"keccak256": "0xf21a2be3dbf91c5d8384c08a36f26d410b94bf2fd05726b687444941028616b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b24fcc86f7789b0b0be6d28f22f40f3ea397946350243946a20250a0b3668412",
+				"dweb:/ipfs/QmUPWEWAHAHM8EnPvrnxQUuY6RkDUJFauzNUzpt9DFBcgv"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"name": "leteven",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"30days challenge with isa/challenge.sol": "dayschallenge30"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"30days challenge with isa/challenge.sol": {
+			"keccak256": "0x0dfd8705d6a537d3e5c1c956c30a27f469243636fe53dafd2d61ac9c2543e229",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://124fb0f496937cefdb89ab39a3e419a582b35ccc3799a9f1d349f6f54affdeee",
+				"dweb:/ipfs/QmPvxq25PxBanUjKfpAtWajh4jjhB31xAHnZVYQwnuXfMT"
+			]
+		}
+	},
+	"version": 1
+}

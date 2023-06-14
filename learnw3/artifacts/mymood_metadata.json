@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getMode",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "moods",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "mood",
+						"type": "string"
+					}
+				],
+				"name": "setMode",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learnw3/learning.sol": "mymood"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learnw3/learning.sol": {
+			"keccak256": "0x5e316bbe05b7fa0ae09f124d503d98bc84eff616f9513c14a7ccb820dff84561",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7a601843ef95f9b1445bd186fb6662f373eb40a671de957301db082fa6615b6",
+				"dweb:/ipfs/QmYLT9V8qJSGonrxmzKgSKtCUDzw9RVKMVCpQSrzzVKhJa"
+			]
+		}
+	},
+	"version": 1
+}

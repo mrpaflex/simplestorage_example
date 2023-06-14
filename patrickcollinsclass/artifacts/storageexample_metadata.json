@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addpeoplename",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"patrickcollinsclass/storage.sol": "storageexample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"patrickcollinsclass/storage.sol": {
+			"keccak256": "0x4ed392e27e4c576ac429c9d8a488c1fe4b22691a1afb29501da405e52adcc75a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5dc17cc98af4c77e82bacd14fc621c2804b8124968b4e34b196fcdeebac62a6",
+				"dweb:/ipfs/QmYGeH8jz6p4R4JpsK5HaSsNHoV4frzdmUt2Ghf3gA55ko"
+			]
+		}
+	},
+	"version": 1
+}

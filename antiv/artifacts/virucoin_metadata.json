@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"antiv/virusco.sol": "virucoin"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"antiv/virusco.sol": {
+			"keccak256": "0x6e0de41773c6fbfcdd90fee35c383c3d43349b2008d1956589350c1e8afa1800",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4afdabb160ab596f27299d3b5cefe51c5f4e40cd31845495690631933440d9ec",
+				"dweb:/ipfs/QmQEkUbtbeKiuhy9uoHdq7Pj1VZub61VrE5r2ATsNNBNmZ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "mood",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learnw3/learning.sol": "mood"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learnw3/learning.sol": {
+			"keccak256": "0x9fec1168cbdf4e3b2a55138e03b02dc7f85ec632dcd83e7868d97774080e8729",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50f9dbe62ea0a0ec61b0d7affaa0ede64544747987264446ed26249bb5d43b13",
+				"dweb:/ipfs/Qmc22BkScBiFs9jQdp8ioq3t8GtSTK4W8PVYWmGkct3i6E"
+			]
+		}
+	},
+	"version": 1
+}

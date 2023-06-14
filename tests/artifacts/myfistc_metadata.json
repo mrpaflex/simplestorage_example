@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getname",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "setname",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/tset.sol": "myfistc"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/tset.sol": {
+			"keccak256": "0x34ef675ffdd932783538ba84af7f4cf74a2de7002ffe8114643ba2ad87b2c3cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a009274b6aea0a3b5f7d5a5c58dca6a4448ce0d7d6c8d08f8e8bef1bcde0c17",
+				"dweb:/ipfs/QmdKNmvo7NiDcDammEYVv7YnX5zE29aJXVX6ryBYGf6Fgt"
+			]
+		}
+	},
+	"version": 1
+}

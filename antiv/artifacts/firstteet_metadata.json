@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"antiv/pro22d.sol": "firstteet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"antiv/pro22d.sol": {
+			"keccak256": "0x2da6146f91efc512cf973dc0cd8ddedcf2a6dac595cd856f0fcf70b607dd1793",
+			"license": "MIT.",
+			"urls": [
+				"bzz-raw://d986449e069b32c28ea316b617b34c3cc8bf80e4d654c9aa4811c70d68fe0104",
+				"dweb:/ipfs/QmaKFQcgtWk5LFKPM6NbUy66HKc4A2tTfc4xGmXoFqKWML"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"antiv/soliditest.sol": "solitest"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"antiv/soliditest.sol": {
+			"keccak256": "0x7533da4a80d0d94cc3e893411b4d12e92545fc0e46e829232776be76dbb0ca69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aaf45ceba831dc47fc2efe0b03e24b5c660d222d81c30f8826a0418ffd220df0",
+				"dweb:/ipfs/QmNgdLiNJH8tXLhktJGdLHHsAZYhCXUpnEb1hk37aKuRgf"
+			]
+		}
+	},
+	"version": 1
+}
